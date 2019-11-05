@@ -1,0 +1,66 @@
+forcedchoice: 
+Design indicator, D. Takes value of 1 for units in forced-exposure condition.
+
+fox: 
+Takes value of 1 for units in forced-exposure condition who were assigned to Fox, NA otherwise.
+
+msnbc: 
+Takes value of 1 for units in forced-exposure condition who were assigned to MSNBC, NA otherwise.
+
+entertainment: 
+Takes value of 1 for units in forced-exposure condition who were assigned to entertainment, NA otherwise.
+
+med_pref: 
+Stated preference, S
+Values: Fox (1), MSNBC (2), entertainment (3), otherwise NA
+
+med_choice: 
+Actual choice for units in free-choice condition.
+Values: Fox (1), MSNBC (2), entertainment (3), otherwise NA
+
+actions_discuss: 
+Prompt: Thinking about the video clip you just watched, how likely would you be to discuss the story with a friend? 
+Values: Very likely (1), Likely (2), Somewhat Likely (3), Not likely (4), Not sure (7)
+
+fair_4, friendly_4, good_4, quarrel_4, balanced_4, oneside_4, american_4, accurate_4:
+Initial prompt: Below, you will find a list of pairs of words. Please rate the television clip you just watched on each of the pairs of words.
+
+fair_4:
+Prompt: Fair or unfair
+Values: Very fair (1), Quite fair (2), Fair (3), Neutral (4), Unfair (5), Quite unfair (6), Very unfair (7)
+
+friendly_4:
+Prompt: Friendly or hostile
+Values: Very friendly (1), Quite friendly (2), Friendly (3), Neutral (4), Hostile (5), Quite hostile (6), Very hostile (7)
+
+good_4:
+Prompt: Good or bad
+Values: Very good (1), Quite good (2), Good (3), Neutral (4), Bad (5), Quite bad (6), Very bad (7)
+
+quarrel_4:
+Prompt: Quarrelsome or cooperative
+Values: Very quarrelsome (1), Quite quarrelsome (2), Quarrelsome (3), Neutral (4), Cooperative (5), Quite cooperative (6), Very cooperative (7)
+
+balanced_4:
+Prompt: Balanced or skewed
+Values: Very balanced (1), Quite balanced (2), Balanced (3), Neutral (4), Skewed (5), Quite skewed (6), Very skewed (7)
+
+oneside_4:
+Prompt: One-sided or even-handed
+Values: Very one-sided (1), Quite one-sided (2), One-sided (3), Neutral (4), Even-handed (5), Quite even-handed (6), Very even-handed (7)
+
+american_4:
+Prompt: American or un-American
+Values: Very American (1), Quite American (2), American (3), Neutral (4), Un-American (5), Quite un-American (6), Very un-American (7)
+
+accurate_4:
+Prompt: Accurate or inaccurate
+Values: Very accurate (1), Quite accurate (2), Accurate (3), Neutral (4), Inaccurate (5), Quite inaccurate (6), Very inaccurate (7)
+
+party1:
+Prompt: Generally speaking, do you consider yourself a...
+Values: Democrat (1), Republican (2), Independent (3), Other Party (4)
+
+party4:
+Prompt: Do you think of yourself as closer to the Republican Party or to the Democratic Party? (if party1 equals 3 or 4, NA otherwise)
+Values: Closer to the Republican Party (1), Closer to the Democratic Party (2), Neither (3)
